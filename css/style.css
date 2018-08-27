@@ -1468,6 +1468,14 @@ input[type="text"] {
 .blog .single-news .news-body .btn:hover i{
 	margin-left:5px;
 }
+.blog img{
+  width: 110px;
+  height: 235px;
+}
+
+.timeline-panel{
+  text-align:justify;
+}
 
 /* Pre Loading */
 /* #loading-center{
