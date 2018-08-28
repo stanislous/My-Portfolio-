@@ -21,13 +21,13 @@ var ball = {
     phase: 0
 },
     ball_color = {
-        r: 207,
+        r: 255,
         g: 255,
-        b: 4
+        b: 255
     },
     R = 2,
     balls = [],
-    alpha_f = 0.03,
+    alpha_f = 0.1,
     alpha_phase = 0,
 
     // Line
@@ -46,8 +46,8 @@ var ball = {
 
 // Random speed
 function getRandomSpeed(pos) {
-    var min = -1,
-        max = 1;
+    var min = -0.7,
+        max = 0.7;
     switch (pos) {
         case 'top':
             return [randomNumFrom(min, max), randomNumFrom(0.1, max)];
@@ -248,7 +248,7 @@ window.addEventListener('resize', function (e) {
 
 function goMovie() {
     initCanvas();
-    initBalls(30);
+    initBalls(35);
     window.requestAnimationFrame(render);
 }
 goMovie();
@@ -276,19 +276,3 @@ canvas.addEventListener('mousemove', function (e) {
     mouse_ball.y = e.pageY;
     // console.log(mouse_ball);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

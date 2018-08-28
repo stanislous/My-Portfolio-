@@ -5,11 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*
-* ======================================================= */
+
+	/* Template Style  */
+
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
@@ -356,7 +354,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: rgb(11, 51, 110);
-  background: rgba(27, 27, 24, 0.89);
+  background: rgb(27, 27, 24);
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -779,7 +777,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 270px;
-  background: rgb(240, 235, 235);
+  background: rgb(255, 255, 255);
   opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1331,7 +1329,7 @@ input[type="text"] {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/loader.gif) center no-repeat rgb(40, 40, 41);
+  background: url(../images/loader.gif) center no-repeat rgb(255, 255, 255);
 }
 
 .js .animate-box {
@@ -1406,7 +1404,7 @@ input[type="text"] {
 	top: 197px;
 	height: 37px;
 	padding: 0 20px;
-	text-align: center;
+  text-align:justify;
 	line-height: 37px;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
@@ -1433,32 +1431,34 @@ input[type="text"] {
 }
 .blog .single-news .news-body h2{
 	font-size:18px;
-	text-transform:uppercase;
+  text-transform:uppercase;
+  text-align: center;
 	font-weight:500;
 }
 .blog .single-news .news-body h2 a{
 	text-decoration:none;
 }
 .blog .single-news .news-body h2:hover a{
-	color:#4269bc;
+	color:#3d68c4;
 }
 .blog .single-news .news-body p{
-	color:#999;
+  color:rgb(49, 46, 46);
+  text-align: justify;
 	margin:15px 0;
 }
 .blog .single-news .news-body .btn {
-	background:#4269bc; 
+	background:#4a78db; 
 	padding: 0;
 	height: 26px;
 	width: 110px;
 	line-height: 24px;
-	border-radius: 0px;
+	border-radius: 2px;
 	color: #fff;
 	margin-top:10px;
 }
 .blog .single-news .news-body .btn:hover{
 	color:#fff;
-	background:#777;
+	background:rgb(0, 83, 138);
 }
 .blog .single-news .news-body .btn i{
 	-webkit-transition:all 0.4s ease;
@@ -1480,8 +1480,8 @@ input[type="text"] {
 /* Footer */
 #footer {
 	background-color: #222222;
-	color: rgb(243, 241, 241);
-	padding: 15px 0 10px 0;
+	color: rgb(252, 252, 252);
+	padding: 15px 0 15px 0;
 }
 #footer p {
 	font-size: 13px;
@@ -1504,6 +1504,35 @@ canvas{
   background-color: transparent;
 } 
 
+/* Related Work */
+
+/* .tiles {
+  position: absolute;
+  top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.tile {
+   position: relative;
+   float: left;
+   width: 33.333%;
+   height: 100%;
+   overflow: hidden;
+}
+
+.photo {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   transition: transform .5s ease-out;
+} */
 
 /* Pre Loading */
 /* #loading-center{
