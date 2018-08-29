@@ -132,7 +132,7 @@
 	// Loading page
 	var loaderPage = function() {
 		setTimeout(function(){
-            $('.fh5co-loader').fadeOut('slow', function () {
+            $('.fh5co-loader').fadeOut('fast', function () {
             });
         },2500);
 	};

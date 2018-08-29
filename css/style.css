@@ -50,8 +50,8 @@ body {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
-	border-color: rgba(231, 231, 231, 0);
+	background-color: transparent;
+	border-color: transparent;
 }
 #menu a.navbar-brand {
 	font-size: 22px;
@@ -206,6 +206,8 @@ h1, h2, h3, h4, h5, h6, figure {
   content: '';
   background: #fff;
   margin-right: -30px;
+
+  /* Media Quaries */
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -227,6 +229,25 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-right: -15px;
   }
 }
+
+@media (max-width: 893px){
+ 
+  h5{
+    font-size: 18px;
+    margin: 0 40px 0 40px;
+    padding: 20px;
+    float: right;
+  }
+
+  #menu a.navbar-brand{
+    font-size: 20px;
+  }
+  .col-md-5{
+    float: left;
+  }
+}
+
+
 #fh5co-header .display-tc h2,
 .fh5co-cover .display-tc h2 {
   font-size: 20px;
@@ -1322,6 +1343,16 @@ input[type="text"] {
   margin: 0px !important;
 }
 
+/* Pre Loader */
+
+.no-js #loader {
+   display: none;  
+}
+
+.js #loader { 
+  display: block; position: absolute; left: 100px; top: 0; 
+}
+
 .fh5co-loader {
   position: fixed;
   left: 0px;
@@ -1336,9 +1367,8 @@ input[type="text"] {
   opacity: 0;
 }
 
-/*=========================
-	Blogs CSS
-===========================*/
+/* Blogs CSS */
+
 .blog{
 	background:#f5f5f5;
 }
@@ -1533,104 +1563,5 @@ canvas{
    background-size: cover;
    transition: transform .5s ease-out;
 } */
-
-/* Pre Loading */
-/* #loading-center{
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-#loading-center-absolute {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 150px;
-  width: 150px;
-  margin-top: -75px;
-  margin-left: -75px;	
-  -ms-transform: rotate(45deg); 
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg); 
-
-}
-.object{
-  width: 20px;
-  height: 20px;
-  background-color: #FFF;
-  position: absolute;
-  left: 65px;
-  top: 65px;
-  -moz-border-radius: 50% 50% 50% 50%;
-  -webkit-border-radius: 50% 50% 50% 50%;
-  border-radius: 50% 50% 50% 50%;
-}
-.object:nth-child(2n+0) {
-  margin-right: 0px;
-
-}
-#object_one {
-  -webkit-animation: object_one 2s infinite;
-  animation: object_one 2s infinite;
-  -webkit-animation-delay: 0.2s; 
-  animation-delay: 0.2s; 
-}
-#object_two {
-  -webkit-animation: object_two 2s infinite;
-  animation: object_two 2s infinite;
-  -webkit-animation-delay: 0.3s; 
-  animation-delay: 0.3s; 
-}
-#object_three {
-  -webkit-animation: object_three 2s infinite;
-  animation: object_three 2s infinite;
-  -webkit-animation-delay: 0.4s; 
-  animation-delay: 0.4s; 
-}
-#object_four {
-  -webkit-animation: object_four 2s infinite;
-  animation: object_four 2s infinite;
-  -webkit-animation-delay: 0.5s; 
-  animation-delay: 0.5s; 
-}
-#object_five {
-  -webkit-animation: object_five 2s infinite;
-  animation: object_five 2s infinite;
-  -webkit-animation-delay: 0.6s; 
-  animation-delay: 0.6s; 
-}
-#object_six {
-  -webkit-animation: object_six 2s infinite;
-  animation: object_six 2s infinite;
-  -webkit-animation-delay: 0.7s; 
-  animation-delay: 0.7s; 
-}
-#object_seven {
-  -webkit-animation: object_seven 2s infinite;
-  animation: object_seven 2s infinite;
-  -webkit-animation-delay: 0.8s; 
-  animation-delay: 0.8s; 
-}
-#object_eight {
-  -webkit-animation: object_eight 2s infinite;
-  animation: object_eight 2s infinite;
-  -webkit-animation-delay: 0.9s; 
-  animation-delay: 0.9s; 
-}
-
-#object_big{
-
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: 50px;
-  top: 50px;
-  -webkit-animation: object_big 2s infinite;
-  animation: object_big 2s infinite;
-  -webkit-animation-delay: 0.5s; 
-  animation-delay: 0.5s; 
-}	
-
-*/
-
 
 /* # sourceMappingURL=style.css.map  */
