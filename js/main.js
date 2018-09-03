@@ -132,9 +132,9 @@
 	// Loading page
 	var loaderPage = function () {
 		setTimeout(function () {
-			$('.fh5co-loader').fadeOut('fast', function () {
+			$('.fh5co-loader').fadeOut('slow', function () {
 			});
-		}, 2500);
+		}, 200);
 	};
 
 	// Zoom when Scrolling
