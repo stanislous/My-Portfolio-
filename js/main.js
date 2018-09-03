@@ -134,7 +134,7 @@
 		setTimeout(function () {
 			$('.fh5co-loader').fadeOut('slow', function () {
 			});
-		}, 200);
+		}, 2500);
 	};
 
 	// Zoom when Scrolling
