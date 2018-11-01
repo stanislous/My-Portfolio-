@@ -21,9 +21,9 @@ var ball = {
     phase: 0
 },
     ball_color = {
-        r: 255,
-        g: 255,
-        b: 255
+        r: 0,
+        g: 152,
+        b: 89
     },
     R = 2,
     balls = [],
@@ -47,7 +47,7 @@ var ball = {
 // Random speed
 function getRandomSpeed(pos) {
     var min = -0.7,
-        max = 0.7;
+        max = 0.6;
     switch (pos) {
         case 'top':
             return [randomNumFrom(min, max), randomNumFrom(0.1, max)];
@@ -199,7 +199,7 @@ function getDisOf(b1, b2) {
 
 // add balls if there a little balls
 function addBallIfy() {
-    if (balls.length < 20) {
+    if (balls.length < 35) {
         balls.push(getRandomBall());
     }
 }
