@@ -134,7 +134,7 @@ hr:before {
 }
 
 p {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 h1, h2{
@@ -155,7 +155,7 @@ h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Roboto", Arial, serif;
   font-weight: 400;
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
 }
 
 ::-webkit-selection {
@@ -464,7 +464,7 @@ h3, h4, h5, h6, figure {
   width: 100%;
   float: left;
   list-style: none;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 .info li:first-child {
   padding-top: 0;
@@ -1230,6 +1230,7 @@ input[type="text"] {
   background: #009859;
   color: #fff;
   border: 2px solid #009859;
+  margin-top: 10px;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
   background: #01854e !important;
