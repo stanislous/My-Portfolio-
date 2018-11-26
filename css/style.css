@@ -434,7 +434,11 @@ h3, h4, h5, h6, figure {
     padding: 2em 0;
   }
 }
-
+@media (min-width: 980) and( max-width: 1230) {
+  #fh5co-work{
+  
+  }
+}
 #fh5co-started {
   border-bottom: none;
 }
