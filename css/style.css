@@ -9,7 +9,7 @@
 	/* Template Style  */
 
 body {
-  font-family: "Roboto", Arial, serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -138,7 +138,8 @@ p {
 }
 
 h1, h2{
-  font-family: "Bahnschrift SemiBold", Arial, serif;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 700;
   color: #009859;
   margin-top: 5px;
 }
@@ -153,7 +154,7 @@ h1, h2{
 
 h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Roboto", Arial, serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 5px 0;
 }
@@ -484,6 +485,16 @@ h3, h4, h5, h6, figure {
   width: 60%;
   display: inline-block;
   color: #000;
+}
+.info li .second-block a {
+  color: #009859;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.info li .second-block a:hover,
+.info li .second-block a:focus {
+  color: #006f40;
 }
 
 .fh5co-social-icons {
@@ -1207,7 +1218,7 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Roboto Slab", Arial, serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   -webkit-border-radius: 30px;

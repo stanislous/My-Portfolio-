@@ -1,4 +1,4 @@
-$font-primary: 'Space Mono', Arial, serif;
+$font-primary: 'Inter', Arial, sans-serif;
 $font-secondary: 'Kaushan Script', cursive;
 
 
@@ -407,6 +407,16 @@ h1, h2, h3, h4, h5, h6, figure {
 			width: 60%;
 			display: inline-block;
 			color: rgba($brand-black,.5);
+			a {
+				color: #009859;
+				font-weight: 600;
+				text-decoration: underline;
+				text-underline-offset: 3px;
+				&:hover,
+				&:focus {
+					color: #006f40;
+				}
+			}
 		}
 	}
 }
